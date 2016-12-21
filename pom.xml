@@ -5,8 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.gmail.dmancilla</groupId>
-    <artifactId>SpringHibernate</artifactId>
+    <artifactId>SpringMVCHibernate</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
 
     <dependencies>
         <dependency>
@@ -87,7 +89,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>SpringMVCHibernateCRUDExample</finalName>
+        <finalName>SpringMVCHibernate</finalName>
 
         <plugins>
             <plugin>
