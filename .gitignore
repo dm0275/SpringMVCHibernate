@@ -1,4 +1,5 @@
 *.idea
-**/target
-MANIFEST.MF
 *.iml
+MANIFEST.MF
+**/target
+
