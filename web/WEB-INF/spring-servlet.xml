@@ -20,7 +20,7 @@
         <property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver" />
         <property name="url" value="jdbc:jtds:sqlserver://localhost:1433/Countries" />
         <property name="username" value="sa" />
-        <property name="password" value="famc:1234"/>
+        <property name="password" value="famc:0812"/>
     </bean>
 
     <bean id="hibernate4AnnotatedSessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean" >

@@ -30,7 +30,7 @@ public class CountryDAO {
 
     public Country getCountry(final int id) {
         Session session = sessionFactory.getCurrentSession();
-        Country country = (Country) session.load(Country.class, new Integer(id));
+        Country country = (Country) session.get(Country.class, new Integer(id));
         return country;
     }
 
